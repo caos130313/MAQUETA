@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Estado del Proyecto</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="logo-titulo">
+      <img src="assets/logo.png" alt="Logo" class="logo" />
+      <h1>Consulta tu Proyecto</h1>
+    </div>
+    <div class="menu">
+      <button id="menu-toggle">☰</button>
+      <nav id="menu-items" class="hidden">
+        <a href="index.html">Inicio</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="contenedor-busqueda">
+    <h2>Consulta el Estado de tu Proyecto</h2>
+    <p>Ingresa tu código para ver la información de tu proyecto:</p>
+
+    <form id="formulario-busqueda">
+      <input type="text" id="codigo" placeholder="Ej: ABC123" required />
+      <button type="submit" class="boton">Buscar</button>
+    </form>
+
+    <div id="resultado" class="resultado-busqueda oculto">
+      <h3>Resultado del Proyecto</h3>
+      <p><strong>Cliente:</strong> <span id="cliente"></span></p>
+      <p><strong>Estado:</strong> <span id="estado"></span></p>
+      <p><strong>Entrega estimada:</strong> <span id="fecha"></span></p>
+      <a href="#" id="archivo" class="boton" target="_blank">Descargar Documento</a>
+    </div>
+
+    <p id="mensaje-error" class="mensaje-error oculto">Código no encontrado. Intenta nuevamente.</p>
+  </main>
+
+  <script src="pagina2.js"></script>
+</body>
+</html>

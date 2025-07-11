@@ -1,0 +1,1 @@
+document.getElementById('menu-toggle').addEventListener('click', () => { document.getElementById('menu-items').classList.toggle('hidden'); });
