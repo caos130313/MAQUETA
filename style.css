@@ -149,3 +149,21 @@ footer {
   margin-top: 20px;
   color: red;
 }
+.contacto-contenido {
+  margin-top: 100px;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.info-contacto {
+  background-color: #f9f9f9;
+  padding: 30px;
+  margin: 30px auto;
+  border-radius: 8px;
+  max-width: 500px;
+  text-align: left;
+}
+
+.info-contacto p {
+  margin-bottom: 15px;
+}
